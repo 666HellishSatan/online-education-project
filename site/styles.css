@@ -3,11 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: red;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
 
 /* Дополнительные стили */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: red;
+}
