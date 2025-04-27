@@ -1,18 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600&display=swap');
+
+/* Переменные */
+:root {
+    --background-color: #FFF0F0; /* Основной фон */
+    --text-color: #3A2F2F; /* Основной цвет текста */
+    --heading-color: #9B2D4F; /* Цвет заголовков h1, h2 */
+    --button-bg-color: #FF6B8B; /* Фон кнопок */
+    --button-text-color: #FFFFFF; /* Цвет текста кнопок */
+    --highlight-bg-color: #FFD1DC; /* Фон для выделенных элементов */
+    --highlight-text-color: #9B2D4F; /* Цвет текста для выделенных элементов */
+
+        /* Переменные для шрифтов */
+    --font-heading: 'Playfair Display', serif; /* Шрифт для заголовков */
+    --font-body: 'Source Sans 3', sans-serif; /* Шрифт для основного текста */
+
+        /* Вспомогательные переменные */
+    --border-build: 2px dashed red;
+}
+
+
+/* Вспомогательные стили */
+body div {
+    border: var(--border-build);
+}
+
 /* Общие стили */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: red;
 }
 
 
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-body);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading), serif;
+    color: var(--heading-color);
+}
+
 /* Дополнительные стили */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 3.5rem;
-    color: red;
+.aksent {
+    background-color: var(--highlight-bg-color);
+    color: var(--highlight-text-color);
+}
+
+/* Исключительные стили */
+
+.main_div {
+}
+
+.main_navigator {
 }

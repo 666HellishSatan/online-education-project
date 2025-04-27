@@ -1,4 +1,25 @@
 Сайт информационный по теме «Онлайн технологии в обучении. Дистанционное обучение»: 
 
 шрифты: h1, h2, h3 {Playfair Display} body{Source Sans 3}
-цвета: 
+цвета:  .palette-3 {
+            background-color: #FFF0F0;
+            color: #3A2F2F;
+        }
+
+        .palette-3 h1, .palette-3 h2 {
+            color: #9B2D4F;
+        }
+
+        .palette-3 button {
+            background-color: #FF6B8B;
+            color: #FFFFFF;
+        }
+
+        .palette-3 .highlight {
+            background-color: #FFD1DC;
+            color: #9B2D4F;
+        }
+        
+
+
+
