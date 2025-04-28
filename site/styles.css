@@ -15,7 +15,7 @@
     --font-body: 'Source Sans 3', sans-serif; /* Шрифт для основного текста */
 
         /* Вспомогательные переменные */
-    --border-build: 2px dashed red;
+    --border-build: 1px dashed red;
 }
 
 
@@ -58,9 +58,26 @@ h1, h2, h3 {
 }
 
 /* Исключительные стили */
-
 .main_div {
+    margin: 40px;
+    padding: 50px;
+}
+
+.main_div h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 70px;
 }
 
 .main_navigator {
+    text-align: right;
+    display: flex;
+    
+}
+.main_navigator_links {
+    width: 100%;
+}
+
+.about_online_edu {
+
 }
