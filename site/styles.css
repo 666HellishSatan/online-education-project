@@ -21,7 +21,7 @@
 
 /* Вспомогательные стили */
 body div {
-    border: var(--border-build);
+    /* border: var(--border-build); */
 }
 
 /* Общие стили */
@@ -70,7 +70,7 @@ h1, h2, h3 {
 }
 
 .main_navigator {
-    text-align: right;
+    text-align: center;
     display: flex;
     
 }
